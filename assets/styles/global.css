@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131212;
+}
+
+nav {
+    background-color: #13ED9F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;  
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.fa-confluence {
+    font-size: 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.item-menu {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+.item-menu:hover {
+    border-bottom: 1px solid #000;
+}
+
+.btn-back {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.btn-back:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #13ED9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.fa-circle-arrow-left {
+    color: #13ED9F;
+}
