@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131212;
+}
+
+nav {
+    background-color: #13ED9F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;  
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.fa-confluence {
+    font-size: 40px;
+}
+
+.btn-back {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+}
+
+.btn-back a {
+    color:#fffF;
+    text-decoration: none;
+}
+
+.fa-circle-arrow-left {
+    color: #13ED9F;
+}
