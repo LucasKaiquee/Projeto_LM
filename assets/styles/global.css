@@ -1,7 +1,18 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", "Roboto";
 }
 
 body {
@@ -62,6 +73,7 @@ header ul {
     cursor: pointer;
     text-decoration: none;
     color: #ffff;
+    transition: 0.3s;
 }
 
 .btn-back:hover {
@@ -81,6 +93,7 @@ header ul {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn:hover {
