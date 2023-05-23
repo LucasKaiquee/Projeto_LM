@@ -104,31 +104,74 @@ header ul {
     color: #13ED9F;
 }
 
+
+/*FOOTER*/
+
+footer{
+    border-bottom: 1px solid #13ED9F;
+    border-top: 1px solid #13ED9F;
+    padding: 60px 0;
+    margin: 80px auto;
+    width: 80%;
+}
 footer section .fa-confluence{
     color: #13ED9F;
-    font-size: 60px;
-
+    font-size: 80px;
 }
 
 .company_name{
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #13ED9F;
-    border-top: 1px solid #13ED9F;
-    padding: 20px 0;
-    margin: 30px auto;
-    width: 80%;
     flex-direction: column;
-    
 }
 footer h1{
     color: white;
     align-self: center;
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 1px;
 }
 .footer_logo{
     display:flex;
     gap: 0 20px;
-    align-self: center;
+    flex-basis: 80%;
+    padding-left: 250px;
+
+}
+.nossas_redes{
+    display: flex;
+    flex-wrap: wrap;
+    color: #13ED9F;
+    justify-content: center;
+    text-align: center;
+}
+.nossas_redes p{
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+}
+
+.fa-brands{
+    color: #13ED9F;
+    padding: 0 10px;
+    font-size: 35px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+}
+.voltar_topo{
+    text-align: center;
+    padding-top: 40px ;
+    font-size: 15px;
+    
+}
+.voltar_topo >a{
+    text-decoration: none;
+    color: white;
+}
+.fa-circle-arrow-up{
+    color: #13ED9F;
+    font-size: 20px;
 }
