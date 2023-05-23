@@ -167,4 +167,7 @@ span {
     background-repeat: no-repeat;
 }
 
+.input-item:required:valid {
+    border-color: #13ED9F;
+}
 
