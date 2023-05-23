@@ -145,10 +145,20 @@ span {
     border: none;
     padding: 15px;
     color: #fff;
+    border: none;
+    outline: 0;
+}
+
+.input-item:focus {
+    border: 1px solid #13ED9F;
 }
 
 .input-item:hover{
-    border-color: #13ED9F;
+    border: 1px solid #13ED9F;
+}
+
+.input-item::placeholder {
+    color: #fff;
 }
 
 .form textarea {
@@ -157,6 +167,15 @@ span {
     margin-bottom: 20px;
     border: none;
     color: #fff;
+    height: 200px;
+}
+
+.input-item:required:valid {
+    border: 1px solid #13ED9F;
+}
+
+.input-item:not(:placeholder-shown):invalid {
+    border: 1px solid #ed1e13;
 }
 
 .background {
@@ -167,7 +186,4 @@ span {
     background-repeat: no-repeat;
 }
 
-.input-item:required:valid {
-    border-color: #13ED9F;
-}
 
