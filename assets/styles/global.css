@@ -129,13 +129,14 @@ footer h1{
     align-self: center;
     font-size: 50px;
     letter-spacing: 1px;
+    
 }
 .footer_logo{
     display:flex;
     gap: 0 20px;
-    flex-basis: 80%;
-    padding-left: 250px;
-
+    flex-basis: 100%;
+    justify-content: center;
+    
 }
 .nossas_redes{
     display: flex;
@@ -155,6 +156,10 @@ footer h1{
     padding: 0 10px;
     font-size: 35px;
 }
+.nossas_redes i:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 .copyright{
     color: white;
     text-align: center;
@@ -166,6 +171,10 @@ footer h1{
     padding-top: 40px ;
     font-size: 15px;
     
+}
+.voltar_topo i:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .voltar_topo >a{
     text-decoration: none;
