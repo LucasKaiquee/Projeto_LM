@@ -1,54 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #131212;
-}
-
-nav {
-    background-color: #13ED9F;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;  
-    top: 0;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 25px;
-}
-
-.fa-confluence {
-    font-size: 40px;
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    font-size: 20px;
-}
-
-.item-menu {
-    text-decoration: none;
-    color: #000;
-    transition: 0.3s;
-    font-size: 22px;
-}
-
-.item-menu:hover {
-    border-bottom: 1px solid #000;
-}
-
 #intro {
     margin-top: 50px;
     background-image: url("../imgs/tecnologia-da-informacao.png");
@@ -81,24 +30,25 @@ header ul {
 #intro h5 {
     margin-top: 10px;
     font-size: 20px;
+    margin-bottom: 5px;
 }
-
 .btn {
-    width: 145px;
-    height: 50px;
-    background-color: #13ED9F;
-    color: #000;
+    width: 140px;
+    height: 40px;
     border-radius: 10px;
-    margin-top: 10px;
-    font-weight: bold;
+    border: none;
+    background-color: #13ED9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    transition: 0.3s;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
 
 .btn:hover {
-    background-color: #131212;
-    color: #13ED9F;
-    
+    transform: scale(1.1);
 }
 
 main{
