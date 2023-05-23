@@ -103,3 +103,32 @@ header ul {
 .fa-circle-arrow-left {
     color: #13ED9F;
 }
+
+footer section .fa-confluence{
+    color: #13ED9F;
+    font-size: 60px;
+
+}
+
+.company_name{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #13ED9F;
+    border-top: 1px solid #13ED9F;
+    padding: 20px 0;
+    margin: 30px auto;
+    width: 80%;
+    flex-direction: column;
+    
+}
+footer h1{
+    color: white;
+    align-self: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.footer_logo{
+    display:flex;
+    gap: 0 20px;
+    align-self: center;
+}
