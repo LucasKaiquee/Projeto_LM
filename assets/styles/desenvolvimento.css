@@ -1,0 +1,22 @@
+
+.nav-company-name{
+    display: flex;
+    gap: 0 10px;
+}
+.nav-company-name h1{
+    align-self: center;
+    font-size: 25px;
+}
+.voltar-button {
+    text-decoration: none;
+    background-color: black;
+    padding:  5px 25px;
+    border-radius: 10px
+}
+.voltar-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+nav section span{
+    color: white;
+}
