@@ -254,7 +254,8 @@ footer .fa-brands{
     font-size: 15px;
 }
 .voltar_topo{
-    text-align: center;
+    width: 200px;
+    margin: auto;
     padding-top: 40px ;
     font-size: 15px;
 }
