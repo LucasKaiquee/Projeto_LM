@@ -111,6 +111,7 @@ header ul {
     width: 80%;
     margin: auto;
     display: flex;
+    margin-top: 20px;
 }
 
 /*FORM*/
