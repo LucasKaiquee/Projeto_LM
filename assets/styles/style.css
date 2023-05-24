@@ -192,6 +192,25 @@
     margin: auto;
 }
 
+.maps {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.maps p {
+    color: #fff;text-align: center;
+    font-size: 18px;
+}
+
+.maps iframe {
+    width: 60%;
+    height: 300px;
+    margin: auto;
+}
+
 
 
 
