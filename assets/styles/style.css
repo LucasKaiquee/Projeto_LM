@@ -51,6 +51,25 @@
     transform: scale(1.1);
 }
 
+#contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact h2 {
+    flex-basis: 100%;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.inform-contact {
+    width: 50%;
+}
+
+
 
 
 
