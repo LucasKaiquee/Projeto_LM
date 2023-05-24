@@ -208,11 +208,10 @@ footer section .fa-confluence{
     font-size: 80px;
 }
 
-.company_name{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.footer_logo h1 {
+    align-self: center;
 }
+
 footer h1{
     color: white;
     align-self: center;
@@ -223,10 +222,19 @@ footer h1{
 .footer_logo{
     display:flex;
     gap: 0 20px;
-    flex-basis: 100%;
     justify-content: center;
-    
 }
+
+.footer_logo h1 {
+    position: absolute;
+    text-align: center;
+}
+
+.footer_logo i {
+    position: relative;
+    left: -250px;
+}
+
 .nossas_redes{
     display: flex;
     flex-wrap: wrap;
