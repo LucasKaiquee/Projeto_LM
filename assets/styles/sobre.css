@@ -34,7 +34,7 @@
 }
 
 .service-description {
-    text-align: justify;
+    text-align: left;
     width: 80%;
     height: 100%;
     background-color: #141C23;
@@ -109,11 +109,6 @@ span {
     margin-bottom: 15px;
 }
 
-.service-contato {
-    width: 80%;
-    margin: auto;
-    display: flex;
-}
 
 .service-contato h3 {
     font-size: 30px;
