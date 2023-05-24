@@ -81,6 +81,10 @@ header ul {
     transform: scale(1.1);
 }
 
+span {
+    color: #13ED9F;
+}
+
 .btn {
     width: 200px;
     height: 60px;
