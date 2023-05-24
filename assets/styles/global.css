@@ -45,8 +45,9 @@ nav {
 header ul {
     display: flex;
     list-style: none;
-    gap: 20px;
-    font-size: 20px;
+    gap: 70px;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .item-menu {
@@ -221,7 +222,6 @@ footer h1{
 }
 .footer_logo{
     display:flex;
-    gap: 0 20px;
     justify-content: center;
 }
 
