@@ -107,11 +107,93 @@ header ul {
     color: #13ED9F;
 }
 
+.service-contato {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/*FORM*/
+
+.form-container h3 {
+    font-size: 30px;
+}
+
+.form-container {
+    background-color: #141C23;
+    width: 50%;
+    height: 700px;
+    align-items: flex-start;
+}
+
+.form-container h3 {
+    color: #13ED9F;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 50px;
+    margin: auto;
+}
+
+.input-item {
+    background-color: #373937;
+    height: 60px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    outline: 0;
+}
+
+.input-item:focus {
+    border: 1px solid #13ED9F;
+}
+
+.input-item:hover{
+    border: 1px solid #13ED9F;
+}
+
+.input-item::placeholder {
+    color: #fff;
+}
+
+.form textarea {
+    background-color: #373937;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    height: 250px;
+}
+
+.input-item:required:valid {
+    border: 1px solid #13ED9F;
+}
+
+.input-item:not(:placeholder-shown):invalid {
+    border: 1px solid #ed1e13;
+}
+
+.background {
+    width: 50%;
+    height: 700px;
+    background-image: url("../imgs/shutterstock_329205053-scaled-31.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /*FOOTER*/
 
 footer{
-    border-bottom: 1px solid #13ED9F;
-    border-top: 1px solid #13ED9F;
+    border-bottom: 2px solid #13ED9F;
+    border-top: 2px solid #13ED9F;
     padding: 60px 0;
     margin: 80px auto;
     width: 80%;
