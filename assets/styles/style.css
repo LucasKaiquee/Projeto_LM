@@ -32,23 +32,82 @@
     font-size: 20px;
     margin-bottom: 5px;
 }
-.btn {
-    width: 140px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background-color: #13ED9F;
+
+#about {
+    width: 80%;
+    height: 100%;
+    gap: 40px;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
+    flex-direction: column;
 }
 
-.btn:hover {
-    transform: scale(1.1);
+.make {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.make img {
+    width: 50%;
+    justify-self: flex-end;
+    left: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+.make div {
+    background-color: #141C23;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    width: 45%;
+    height: 350px;
+}
+
+.make h2 {
+    color: #13ED9F;
+}
+
+#about i {
+    color: #13ED9F;
+    font-size: 80px;
+    align-self: flex-end;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.history img {
+    width: 50%;
+    justify-self: flex-end;
+    position: relative;
+    z-index: -1;
+}
+
+.history div{
+    background-color: #141C23;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 45%;
+    width: 45%;
+    height: 350px;
+}
+
+#about a{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #contact {
@@ -58,15 +117,60 @@
     flex-wrap: wrap;
 }
 
-#contact h2 {
+.title-container {
     flex-basis: 100%;
     color: #fff;
     margin-top: 50px;
+    margin-bottom: 20px;
     font-size: 40px;
+    padding-left: 20px;
 }
 
 .inform-contact {
     width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.inform-contact h4 {
+    font-size: 20px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-container div {
+    justify-self: center;
+}
+
+.contact-container i {
+    font-size: 50px;
+    color: #13ED9F;
+}
+
+.maps {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.maps p {
+    color: #fff;text-align: center;
+    font-size: 18px;
+}
+
+.maps iframe {
+    width: 60%;
+    height: 300px;
+    margin: auto;
 }
 
 
