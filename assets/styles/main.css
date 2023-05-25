@@ -211,6 +211,10 @@ header ul {
     flex-wrap: wrap;
 }
 
+#contact i {
+    font-size: 50px;
+}
+
 .title-container {
     flex-basis: 100%;
     color: #fff;
