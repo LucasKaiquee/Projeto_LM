@@ -41,11 +41,11 @@ header ul {
 }
 
 #intro h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 #intro h3 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #intro h5 {
@@ -57,6 +57,7 @@ header ul {
 #about {
     width: 80%;
     height: 100%;
+    padding-top: 20px;
     gap: 40px;
     margin: auto;
     display: flex;
@@ -71,6 +72,8 @@ header ul {
 
 .make img {
     width: 50%;
+    height: 300px;
+    height: relative;
     justify-self: flex-end;
     left: 50%;
     position: relative;
@@ -80,23 +83,24 @@ header ul {
 .make div {
     background-color: #141C23;
     padding: 20px;
+    font-size: 14px;
     color: #fff;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     position: absolute;
     width: 45%;
-    height: 350px;
+    height: 240px;
 }
 
 .make h2, .history h2 {
     color: #13ED9F;
+    font-size: 20px;
 }
 
 #about i {
     color: #13ED9F;
-    font-size: 80px;
-    align-self: flex-end;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 90%;
 }
 
 .history {
@@ -107,6 +111,7 @@ header ul {
 
 .history img {
     width: 50%;
+    height: 300px;
     justify-self: flex-end;
     position: relative;
     z-index: -1;
@@ -115,14 +120,13 @@ header ul {
 .history div{
     background-color: #141C23;
     padding: 20px;
+    font-size: 14px;
     color: #fff;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     position: absolute;
     left: 45%;
     width: 45%;
-    height: 350px;
+    height: 240px;
 }
 
 #about a{
@@ -140,7 +144,7 @@ header ul {
 #servicos{
     width: 80%;
     background-color: #141C23;
-    padding: 20px 0;
+    padding-top: 70px;
     margin: auto;
     margin-top: 40px;
 }
@@ -165,7 +169,8 @@ header ul {
     background-color: #131212;
     margin: 30px;
     padding: 20px;
-    height: 560px;
+    width: calc(100%/3);
+    height: 600px;
     justify-content: space-around;
     gap: 20px;
 }
@@ -199,6 +204,7 @@ header ul {
 } 
  
 #contact {
+    padding-top: 20px;
     width: 80%;
     margin: auto;
     display: flex;
@@ -261,7 +267,64 @@ header ul {
     margin: auto;
 }
 
+@media only screen and (max-width: 1200px) {
+    #intro {
+        background-attachment: initial;
+        background-position: center;
+        background-size: 100%;
+        margin-top: 0;
+    }
 
+    header ul {
+        gap: 40px;
+    }
+
+    #intro h1 {
+        font-size: 50px;
+    }
+
+    #intro h3 {
+        font-size: 20px;
+    }
+
+    #intro h5 {
+        font-size: 16px;
+    }
+
+    .make div, .history div {
+        height: 220px;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #about img {
+        height: 240px;
+    }
+
+    #about h2 {
+        font-size: 16px;
+    }
+
+    #about i {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .mini-services-geral {
+        flex-direction: column;
+    }
+
+    .mini-services {
+        width: 80%;
+        height: 100%;
+    }
+
+    .inform-contact p {
+        font-size: 14px;
+    }
+
+    
+}
 
 
 

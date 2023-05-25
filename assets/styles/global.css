@@ -94,12 +94,12 @@ span {
 }
 
 .service-contato {
+    padding-top: 20px;
     width: 80%;
     margin: auto;
     display: flex;
     margin-top: 20px;
 }
-
 
 /*FORM*/
 
@@ -124,7 +124,6 @@ span {
     flex-direction: column;
     justify-content: center;
     width: 90%;
-    padding: 50px;
     margin: auto;
 }
 
