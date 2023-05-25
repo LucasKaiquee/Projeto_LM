@@ -21,7 +21,7 @@ header ul {
 
 #intro {
     margin-top: 50px;
-    background-image: url("../imgs/tecnologia-da-informacao.png");
+    background-image: url("../imgs/tecnologia-da-informacao2.png");
     background-attachment: fixed;
     height: 100vh;
     background-repeat: no-repeat;
@@ -244,7 +244,6 @@ header ul {
 }
 
 .contact-container .fa-solid {
-    font-size: 50px;
     color: #13ED9F;
 }
 
@@ -323,8 +322,249 @@ header ul {
         font-size: 14px;
     }
 
-    
+    #contact i {
+        font-size: 40px;
+    }
+
+    #contact h4 {
+        font-size: 16px;
+    }
+
 }
+
+@media only screen and (max-width: 800px) {
+    #intro {
+        background-image: url("../imgs/backprincipal-mobile.png");
+        margin-top: 0;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    header ul {
+        gap: 40px;
+    }
+
+    .content {
+        margin: 0;
+        text-align: center;
+        width: 95%;
+    }
+
+    #intro {
+        align-items: center;
+    }
+
+    #intro a {
+        display: inline-flex;
+        
+    }
+
+    #intro h1 {
+        font-size: 30px;
+    }
+
+    #intro h3 {
+        font-size: 14px;
+    }
+
+    #intro h5 {
+        font-size: 11px;
+    }
+
+    .make div, .history div {
+        height: 240px;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #about img {
+        height: 240px;
+    }
+
+    #about h2 {
+        font-size: 16px;
+    }
+
+    .title-container {
+        font-size: 30px;
+    }
+
+    .make {
+        flex-direction: column;
+        
+    }
+
+    .make div, .history div{
+        width: 100%;
+        position:static;
+        font-size: 12px;
+    }
+
+    #about i {
+        font-size: 35px;
+    }
+
+    #about img {
+        display: none;
+    }
+
+    .serviços-nav {
+        margin: auto;
+        width: 90%;
+        padding: 0;
+    }
+
+    .mini-services-geral {
+        align-items: center;
+    }
+
+    .mini-services {
+        font-size: 11px;
+        align-items: center;
+    }
+
+    #contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inform-contact {
+        width: 100%;
+        padding: 0;
+        gap: 15px;
+    }
+
+    .maps iframe {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    #intro {
+        background-image: url("../imgs/backp-mob.png");
+    }
+
+    .item-menu {
+        font-size: 18px;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    #intro h3 {
+        font-size: 12px;
+    }
+
+    #about {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .item-menu {
+        font-size: 14px;
+    }
+
+    .title-container {
+        font-size: 25px;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .make div, .history div {
+        height: 100%;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .make h2, .history h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #about a {
+        font-size: 16px;
+        border-bottom: 1px solid #13ED9F;
+        padding-bottom: 20px;
+    }
+
+    .serviços-nav {
+        text-align: center;
+    }
+
+    #servicos p {
+        font-size: 12px;
+    }
+
+    .serviços-nav h2 {
+        font-size: 25px;
+    }
+
+    .mini-services-geral {
+        padding: 10px;
+    }
+
+    .mini-services {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quali-equip {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .img-content {
+        background-image: url("../imgs/inovacao-875x500 1.png");
+        width: 90%;
+        background-repeat: no-repeat;
+        margin: auto;
+        height: 113.3px;
+        background-size: 100%;
+    }
+
+    #contact {
+        align-items: center;
+    }
+
+    #contact i {
+        font-size: 30px;
+    }
+
+    #contact h4 {
+        font-size: 12px;
+    }
+
+    .inform-contact p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-container .fa-solid {
+        font-size: 2px;
+    }
+
+    .inform-contact img {
+        display: none;
+    }
+
+    .maps {
+        display: none;
+    }
+
+}
+
 
 
 

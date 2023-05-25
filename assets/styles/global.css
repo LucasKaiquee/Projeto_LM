@@ -182,7 +182,7 @@ footer{
     border-bottom: 2px solid #13ED9F;
     border-top: 2px solid #13ED9F;
     padding: 60px 0;
-    margin: 80px auto;
+    margin: 30px auto;
     width: 80%;
 }
 footer section .fa-confluence{
@@ -272,4 +272,92 @@ footer .fa-brands{
 
 .back-top:hover {
     transform: scale(1.2);
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .logo{
+        font-size: 16px;
+        gap: 10px;
+        display: none;
+    }
+
+    .logo i {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        align-self: center;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .form-container h3 {
+        font-size: 20px;
+    }
+
+    .input-item {
+        height: 30px;
+    }
+
+    .form textarea {
+        height: 150px;
+    }
+
+    .form-container {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    footer h1 {
+        font-size: 30px;
+        text-shadow: #161313 1px 0 10px;
+    }
+
+   .footer_logo i{
+        position: static;
+        opacity: 0.6;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .form-container {
+        text-align: center;
+    }
+
+    .footer_logo h1 {
+        font-size: 20px;
+    }
+
+    .footer_logo .fa-brands {
+        font-size: 40px;
+    }
+
+    .nossas_redes {
+        font-size: 14px;
+    }
+
+    .nossas_redes i {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+
 }
