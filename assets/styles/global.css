@@ -42,25 +42,6 @@ nav {
     font-size: 40px;
 }
 
-header ul {
-    display: flex;
-    list-style: none;
-    gap: 70px;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.item-menu {
-    text-decoration: none;
-    color: #000;
-    transition: 0.3s;
-    font-size: 22px;
-}
-
-.item-menu:hover {
-    border-bottom: 1px solid #000;
-}
-
 .btn-back {
     width: 150px;
     height: 40px;

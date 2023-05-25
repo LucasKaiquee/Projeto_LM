@@ -1,3 +1,25 @@
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.item-menu {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+.item-menu:hover {
+    border-bottom: 1px solid #000;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 #intro {
     margin-top: 50px;
     background-image: url("../imgs/tecnologia-da-informacao.png");
@@ -68,7 +90,7 @@
     height: 350px;
 }
 
-.make h2 {
+.make h2, .history h2 {
     color: #13ED9F;
 }
 
@@ -110,8 +132,14 @@
     text-decoration: none;
 }
 
+#about a:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
 /* SERVIÇOS */
-#serviços{
+#servicos{
+    width: 80%;
     background-color: #141C23;
     padding: 20px 0;
     margin: auto;
@@ -148,6 +176,9 @@
 .quali-equip{
     color: white;
     font-size: 14px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
 }
 .vermais-serv{
     display: flex;
@@ -166,13 +197,10 @@
 .vermais-serv:hover{
     transform: scale(1.1);
     transition: 0.3s;
-}
-.quali-equip{
-    width: 80%;
-    margin: auto;
-    padding-bottom: 30px;
-}
+} 
+ 
 #contact {
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -210,7 +238,7 @@
     justify-self: center;
 }
 
-.contact-container i {
+.contact-container .fa-solid {
     font-size: 50px;
     color: #13ED9F;
 }
@@ -234,43 +262,6 @@
     margin: auto;
 }
 
-.maps {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-.maps p {
-    color: #fff;text-align: center;
-    font-size: 18px;
-}
-
-.maps iframe {
-    width: 60%;
-    height: 300px;
-    margin: auto;
-}
-
-.maps {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-.maps p {
-    color: #fff;text-align: center;
-    font-size: 18px;
-}
-
-.maps iframe {
-    width: 60%;
-    height: 300px;
-    margin: auto;
-}
 
 
 
