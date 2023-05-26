@@ -232,6 +232,9 @@
 
     .service-description p{
         font-size: 12px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 20px;
     }
 
     .title-content {

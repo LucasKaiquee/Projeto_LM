@@ -490,11 +490,11 @@ header ul {
         padding-bottom: 20px;
     }
 
-    .serviços-nav {
+    .serviços-nav h2{
         text-align: center;
     }
 
-    #servicos p {
+    #servicos p, .quali-equip, #contact h4 {
         font-size: 12px;
     }
 
@@ -508,12 +508,6 @@ header ul {
 
     .mini-services {
         width: 100%;
-        text-align: center;
-    }
-
-    .quali-equip {
-        text-align: center;
-        font-size: 12px;
     }
 
     #contact {
@@ -522,10 +516,6 @@ header ul {
 
     #contact i {
         font-size: 30px;
-    }
-
-    #contact h4 {
-        font-size: 12px;
     }
 
     .inform-contact p {
