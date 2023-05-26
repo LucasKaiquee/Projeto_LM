@@ -272,8 +272,7 @@ header ul {
 
 @media only screen and (max-width: 1200px) {
     #intro {
-        background-attachment: initial;
-        background-position: center;
+        background-image: url("../imgs/backprincipal-mobile.png");
         background-size: 100%;
         margin-top: 0;
     }
@@ -337,11 +336,6 @@ header ul {
 }
 
 @media only screen and (max-width: 800px) {
-    #intro {
-        background-image: url("../imgs/backprincipal-mobile.png");
-        margin-top: 0;
-    }
-
     nav {
         flex-direction: column;
     }
@@ -467,9 +461,7 @@ header ul {
     #about {
         text-align: center;
     }
-}
 
-@media only screen and (max-width: 320px) {
     .item-menu {
         font-size: 14px;
     }
@@ -568,8 +560,3 @@ header ul {
     }
 
 }
-
-
-
-
-

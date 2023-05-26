@@ -295,6 +295,12 @@ footer .fa-brands{
         align-self: center;
     }
 
+    .btn-back {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
     .form-container {
         width: 100%;
     }
@@ -328,13 +334,6 @@ footer .fa-brands{
 }
 
 @media only screen and (max-width: 480px) {
-    nav {
-        height: 50px;
-    }
-
-}
-
-@media only screen and (max-width: 320px) {
     .form-container {
         text-align: center;
     }
@@ -358,6 +357,5 @@ footer .fa-brands{
     .copyright {
         font-size: 12px;
     }
-
 
 }
