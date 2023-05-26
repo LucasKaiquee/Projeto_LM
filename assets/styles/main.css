@@ -516,15 +516,6 @@ header ul {
         font-size: 12px;
     }
 
-    .img-content {
-        background-image: url("../imgs/inovacao-875x500 1.png");
-        width: 90%;
-        background-repeat: no-repeat;
-        margin: auto;
-        height: 113.3px;
-        background-size: 100%;
-    }
-
     #contact {
         align-items: center;
     }
@@ -552,10 +543,6 @@ header ul {
     }
 
     .inform-contact img {
-        display: none;
-    }
-
-    .maps {
         display: none;
     }
 
