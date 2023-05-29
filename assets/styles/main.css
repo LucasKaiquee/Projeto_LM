@@ -1,8 +1,10 @@
 header ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 70px;
     font-weight: bold;
+    height: 100%;
     font-size: 40px;
 }
 
