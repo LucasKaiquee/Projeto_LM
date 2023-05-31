@@ -22,7 +22,7 @@
     background-image: url("../imgs/seguranca_digital.jpg");
 }
 .sobre {
-    background-image: url("../imgs/annie-spratt-QckxruozjRg-unsplash.jpg");
+    background-image: url("../imgs/sobre.jpg");
 }
 .content {
     margin-top: -50px;
@@ -135,6 +135,11 @@
 
     .seguranca {
         background-image: url("../imgs/Cybersecurity.png");
+        background-position: center;
+    }
+
+    .sobre {
+        background-image: url("../imgs/sobre_bkp.jpg");
         background-position: center;
     }
 
