@@ -8,7 +8,7 @@
     <link rel="icon" href="./assets/imgs/icons8-confluence-48.png">
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./assets/styles/global.css">
-    
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
@@ -36,94 +36,93 @@
     </header>
 
     <main>
-        <section id="about"> 
-            <h1 class="title-container">Quem Somos
+        <section id="about" class="w-4/5 h-full gap-10 flex flex-col m-auto pt-5"> 
+            <h1 class="basis-full text-white text-[40px] mt-[50px] mb-5 pl-5">Quem Somos
             </h1>
-            <div class="make"> 
-                <div>
-                    <h2>Feita para você</h2>
+            <div class="make flex items-center w-full"> 
+                <div class="bg-[#141C23] text-1sm text-white gap-2.5 absolute w-[45%] h-[300px] p-5">
+                    <h2 class="text-[#13ED9F] text-xl">Feita para você</h2>
                     <p>Somos uma empresa de tecnologia e segurança digital apaixonada por conectar pessoas e garantir que todos possam explorar as oportunidades do mundo digital com confiança. Nosso foco é fornecer soluções abrangentes de segurança digital para proteger dados, informações e infraestrutura. Com uma equipe de especialistas altamente qualificados, atualizados sobre as últimas tendências e tecnologias emergentes, desenvolvemos soluções personalizadas para atender às necessidades de cada cliente.</p>
                     <i class="fa-solid fa-angles-up"></i>
                 </div>
-                <img src="./assets/imgs/blog_5_problemas_de_tecnologia_fargotech 1.png" alt="">
+                <img src="./assets/imgs/blog_5_problemas_de_tecnologia_fargotech 1.png" alt="" class="w-6/12 h-[340px] h-[relative] justify-self-end relative z-[-1] left-2/4">
             </div>
             
-            <div class="history">
-                <img src="./assets/imgs/9nw3mxx40tcmr7swdh50uaubp 1.png" alt="">
-                <div>
-                    <h2>Nossa história</h2>
+            <div class="history flex items-center w-full">
+                <img src="./assets/imgs/9nw3mxx40tcmr7swdh50uaubp 1.png" alt="" class="w-6/12 h-[340px] justify-self-end relative z-[-1]">
+                <div class="bg-[#141C23] text-1sm text-white gap-2.5 absolute w-[45%] h-[300px] p-5 left-[45%]">
+                    <h2 class="text-[#13ED9F] text-xl">Nossa história</h2>
                     <p>Há alguns anos, um grupo de amigos, entusiastas da tecnologia se uniu com um objetivo em comum: criar uma empresa que unisse o poder da tecnologia com a importância da segurança digital. Assim, nasceu a Securitas Tech, uma empresa de tecnologia e segurança digital, fundada com a missão de proteger e capacitar indivíduos e organizações em um mundo cada vez mais conectado. Desde o início, percebemos que o avanço tecnológico trazia consigo não apenas novas possibilidades, mas também desafios complexos de segurança cibernética.</p>
-                    <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                    <i class="fa-sharp fa-solid fa-chart-simple "></i>
                 </div>
             </div>
 
-            <a href="./assets/pages/sobre.html"><span>Veja mais sobre nós ...</span></a>
+            <a href="./assets/pages/sobre.html" class="text-center text-xl no-underline hover:transition-[0.3s] hover:scale-[1.2]"><span>Veja mais sobre nós ...</span></a>
         </section>
 
-        <section id="servicos">
-            <div class="serviços-nav">
-                <h2>Serviços</h2>
-                <p>Estamos comprometidos em fornecer serviços de alta qualidade em todas essas áreas, ajudando sua empresa a aproveitar ao máximo a tecnologia para impulsionar o <span>sucesso e a competitividade.</span></p>
+        <section id="servicos" class="w-4/5 bg-[#141C23] mt-10 m-auto pt-[70px]">
+            <div class="serviços-nav text-[white] w-[85%] pl-5 h-full">
+                <h2 class="text-[40px]">Serviços</h2>
+                <p class="mx-0 my-[50px]">Estamos comprometidos em fornecer serviços de alta qualidade em todas essas áreas, ajudando sua empresa a aproveitar ao máximo a tecnologia para impulsionar o <span>sucesso e a competitividade.</span></p>
             </div>
-            <div class="mini-services-geral">
-                <div class="mini-services">
-                    <h2><span>Desenvolvimento de Software:</span></h2>
-                    <p>Nosso serviço de desenvolvimento de software oferece soluções personalizadas para atender às necessidades específicas da sua empresa. Nossa equipe de desenvolvedores altamente qualificados utiliza as mais recentes tecnologias e práticas de programação para criar aplicativos e sistemas eficientes, escaláveis e intuitivos. Desde o planejamento e design até a implementação e manutenção.</p>
+            <div class="mini-services-geral flex flex-col items-center justify-between h-full">
+                <div class="mini-services flex flex-col bg-[#131212] w-[90%] h-full justify-around gap-5 m-[30px] p-5">
+                    <h2 class="text-2xl"><span>Desenvolvimento de Software:</span></h2>
+                    <p class="text-[white]">Nosso serviço de desenvolvimento de software oferece soluções personalizadas para atender às necessidades específicas da sua empresa. Nossa equipe de desenvolvedores altamente qualificados utiliza as mais recentes tecnologias e práticas de programação para criar aplicativos e sistemas eficientes, escaláveis e intuitivos. Desde o planejamento e design até a implementação e manutenção.</p>
                  
-                    <a href="assets/pages/desenvolvimento.html" class="vermais-serv ">Ver mais</a>
+                    <a href="assets/pages/desenvolvimento.html" class="vermais-serv flex items-center justify-center w-[150px] h-10 no-underline text-sm text-black bg-[#13ED9F] font-bold rounded-[10px] hover:transition-[0.3s] hover:scale-110">Ver mais</a>
                  
                 </div>
-                <div class="mini-services">
-                    <h2><span>Segurança Digital: </span></h2>
-                    <p>A segurança digital é fundamental nos dias de hoje, e oferecemos um serviço abrangente para proteger sua empresa contra ameaças cibernéticas. Nossa equipe de especialistas em segurança digital trabalha para identificar e mitigar vulnerabilidades, implementar medidas de proteção avançadas, como firewalls e sistemas de detecção de intrusão, além de fornecer monitoramento contínuo e resposta a incidentes. Nossa abordagem proativa garante que seus dados, sistemas e infraestrutura estejam seguros contra ataques cibernéticos.</p>
-                    <a href="./assets/pages/seguranca.html" class="vermais-serv " >Ver mais</a>
+                <div class="mini-services flex flex-col bg-[#131212] w-[90%] h-full justify-around gap-5 m-[30px] p-5">
+                    <h2 class="text-2xl"><span>Segurança Digital: </span></h2>
+                    <p class="text-[white]">A segurança digital é fundamental nos dias de hoje, e oferecemos um serviço abrangente para proteger sua empresa contra ameaças cibernéticas. Nossa equipe de especialistas em segurança digital trabalha para identificar e mitigar vulnerabilidades, implementar medidas de proteção avançadas, como firewalls e sistemas de detecção de intrusão, além de fornecer monitoramento contínuo e resposta a incidentes. Nossa abordagem proativa garante que seus dados, sistemas e infraestrutura estejam seguros contra ataques cibernéticos.</p>
+                    <a href="./assets/pages/seguranca.html" class="vermais-serv flex items-center justify-center w-[150px] h-10 no-underline text-sm text-black bg-[#13ED9F] font-bold rounded-[10px] hover:transition-[0.3s] hover:scale-110">Ver mais</a>
                     
                 </div>
-                <div class="mini-services">
-                    <h2><span>Consultoria em TI:</span></h2>
-                    <p>Nossa consultoria de TI oferece orientação especializada para ajudar sua empresa a tomar decisões estratégicas relacionadas à tecnologia da informação. Nossa equipe de consultores experientes analisa suas necessidades e objetivos, avalia sua infraestrutura atual e propõe soluções sob medida para otimizar seus processos de negócio, aumentar a eficiência operacional e impulsionar a inovação tecnológica. Com nossa consultoria de TI, você pode contar com insights valiosos para tomar decisões informadas e alinhar sua estratégia de TI com seus objetivos empresariais.</p>
+                <div class="mini-services flex flex-col bg-[#131212] w-[90%] h-full justify-around gap-5 m-[30px] p-5">
+                    <h2 class="text-2xl"><span>Consultoria em TI:</span></h2>
+                    <p class="text-[white]">Nossa consultoria de TI oferece orientação especializada para ajudar sua empresa a tomar decisões estratégicas relacionadas à tecnologia da informação. Nossa equipe de consultores experientes analisa suas necessidades e objetivos, avalia sua infraestrutura atual e propõe soluções sob medida para otimizar seus processos de negócio, aumentar a eficiência operacional e impulsionar a inovação tecnológica. Com nossa consultoria de TI, você pode contar com insights valiosos para tomar decisões informadas e alinhar sua estratégia de TI com seus objetivos empresariais.</p>
                  
-                    <a href="assets/pages/consultoria.html" class="vermais-serv ">Ver mais</a>
+                    <a href="assets/pages/consultoria.html" class="vermais-serv flex items-center justify-center w-[150px] h-10 no-underline text-sm text-black bg-[#13ED9F] font-bold rounded-[10px] hover:transition-[0.3s] hover:scale-110">Ver mais</a>
                 </div>
                 
             </div>
-            <div class="quali-equip">
+            <div class="quali-equip text-[white] text-sm w-4/5 m-auto pb-[30px]">
                 <p>Nossa equipe é composta por profissionais altamente qualificados e experientes em suas respectivas áreas. Temos um histórico comprovado de <span>sucesso no desenvolvimento de software personalizado, implementação de medidas de segurança digital e consultoria de TI eficaz.</span> Nossa experiência nos permite oferecer soluções sob medida para atender às suas necessidades específicas.</p>
             </div>
-
             
         </section>
         <!-- CONTATO -->
-        <section id="contact">
-            <h2 class="title-container">Contato</h2>
-            <div class="inform-contact">
+        <section id="contact" class="w-4/5 flex flex-wrap m-auto pt-5">
+            <h2 class="title-container basis-full text-white text-[40px] mt-[50px] mb-5">Contato</h2>
+            <div class="inform-contact w-[80%] text-white flex flex-col justify-between px-5 py-10 md:w-6/12">
                 <p>Entre em contato conosco hoje mesmo e descubra como podemos ajudar a <span>impulsionar sua empresa para o futuro!</span> Estamos ansiosos para ouvir suas necessidades, responder suas perguntas e oferecer soluções tecnológicas personalizadas. Não perca tempo, estamos aqui para ajudar. Contate-nos agora mesmo!</p>
 
-                <div class="contact-container">
-                    <i class="fa-solid fa-globe"></i>
-                    <div>
-                        <h4>Nosso endereço:</h4> 
+                <div class="contact-container flex items-center gap-5">
+                    <i class="fa-solid fa-globe text-[50px] text-[#13ED9F]"></i>
+                    <div class="justify-self-center">
+                        <h4 class="text-xl">Nosso endereço:</h4> 
                         <p>Av. Primeiro de Maio, 720, Jaguaribe, João Pessoa - PB.</p>
                     </div>
                 </div>
 
-                <div class="contact-container">
-                    <i class="fa-solid fa-envelope"></i>
-                    <div>
-                        <h4>Nosso e-mail:</h4>
+                <div class="contact-container flex items-center gap-5">
+                    <i class="fa-solid fa-envelope text-[50px] text-[#13ED9F]"></i>
+                    <div class="justify-self-center">
+                        <h4 class="text-xl">Nosso e-mail:</h4>
                         <p>contato@securitastech.com.br</p>
                     </div>
                 </div>
 
-                <div class="contact-container">
-                    <i class="fa-solid fa-phone"></i>
-                    <div>
-                        <h4>Nosso telefone:</h4>
+                <div class="contact-container flex items-center gap-5">
+                    <i class="fa-solid fa-phone text-[50px] text-[#13ED9F]"></i>
+                    <div class="justify-self-center">
+                        <h4 class="text-xl">Nosso telefone:</h4>
                         <p>+55 (83) 3513 - 3745</p>
                     </div>
                 </div>
 
-                <img src="./assets/imgs/inovacao-875x500 1.png" alt="">
+                <img src="./assets/imgs/inovacao-875x500 1.png" alt="" class="img-con">
             </div>
 
             <div class="form-container">
@@ -132,14 +131,14 @@
                     <input type="text" placeholder="Nome" class="input-item" required>
                     <input type="email" placeholder="E-mail" class="input-item" required>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua menssagem ..." class="input-item"></textarea>
-                    <input type="submit" class="form-button btn" value="Enviar">
+                    <input type="submit" class="w-[200px] h-[60px] text-xl bg-[#13ED9F] flex justify-center items-center cursor-pointer no-underline text-black font-bold transition-[0.3s] mt-2.5 rounded-[10px] border-[none] hover:scale-110 font-bold" value="Enviar">
                 </form>
             </div>
         </section>
 
-        <section class="maps">
-            <p>Nossa localização no <span>Google Maps</span></p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917279419156!2d-34.87604522534956!3d-7.1355642928684695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1684964439923!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="maps flex flex-col justify-center gap-5 m-[50px]">
+            <p class="text-white text-center text-lg">Nossa localização no <span>Google Maps</span></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917279419156!2d-34.87604522534956!3d-7.1355642928684695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1684964439923!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-4/5 h-[300px] m-auto show"></iframe>
         </section>        
     </main>
 

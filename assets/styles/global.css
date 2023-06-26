@@ -274,9 +274,6 @@ footer .fa-brands{
     transform: scale(1.2);
 }
 
-
-
-
 @media only screen and (max-width: 800px) {
     .logo{
         font-size: 16px;
