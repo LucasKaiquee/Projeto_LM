@@ -20,11 +20,7 @@ Existem duas maneiras de usar este projeto:
 
 ## Tecnologias utilizadas
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" width="42" alt="html5 logo" align="center" />  HTML <br>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" width="42" alt="css3 logo" align="center" />  CSS <br>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" width="42" alt="git logo" align="center" />  Git
+[![My Skills](https://skills.thijs.gg/icons?i=html,css,tailwind,git,&theme=light)](https://skills.thijs.gg)
 
 ## Biblioteca de ícones 
 
